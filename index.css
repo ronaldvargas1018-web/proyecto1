@@ -2,17 +2,10 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body { 
+                background: #4188e4;
                 font-family: 'Segoe UI', sans-serif;
                 line-height: 1.6;
              }
-
-        .container {
-                    max-width: 1200px;
-                    margin: 0 auto;
-                    padding: 0 20px;
-                    font-family: 'Courier New', Courier, monospace;
-                    font-size: 20px;
-                }
 
         header { 
             background: #333; 
@@ -29,38 +22,48 @@
             top: 0;
         }
 
-        header h1 {
-            margin: 0;
-            text-align: left;
+        .container {
+                    max-width: 90%;
+                    margin: 0 auto;
+                    padding: 0% 3%;
+                    font-size: 90%;
+                }
+
+        #diferente h1 {
+            margin: 0%;
+            font-size: 300%;
+            padding-right: 5%;
         }
 
         .yo {
-            width: 100px;
-            height: 120px;
-            border-radius: 60%;
-            margin-right: 30px;
-        }
-
-        h1{
-            margin-right: 50px;
-            font-size: 30px;
-            padding: 0px, 0px;
+            width: 9%;
+            height: 9%;
+            border-radius: 60%;          
         }
 
         .header-content { 
             display: flex; 
             justify-content: space-between; 
             align-items: center;
-            margin: 0 20px; 
+            margin: 0 10%; 
         }
-
+    
         nav ul { 
             display: flex; 
-            list-style: none; 
+            list-style:none; 
         }
         
         nav li { 
-            margin-left: 20px; 
+            margin-left: 10%; 
+            background: #4188e4;
+            align-content: center;
+            border-radius: 20%;
+            padding: 1%;
+            padding-right:5%;
+            width: 70%;   
+            height: 50%;   
+            display: inline-flex;  
+            justify-content: center; 
         }
         nav a { 
             color: white; 
@@ -95,8 +98,7 @@
         #diseño {
             scroll-margin-top: 180px;
         }
-        aside { 
-            background: #f8f9fa; 
+        aside {             background: #333; 
             padding: 20px; 
         }
         footer { 
