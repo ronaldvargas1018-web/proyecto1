@@ -6,6 +6,7 @@
     <title>TechBlog - Últimas Tendencias en Tecnología</title>
     <meta name="description" content="Blog sobre tecnología, desarrollo web y las últimas tendencias del sector">
     <link rel="stylesheet" href="index.css">
+
 </head>
 <body>
     <header id="diferente">
@@ -19,7 +20,7 @@
                         <li><a href="#desarrollo">Desarrollo</a></li>
                         <li><a href="#diseño">Diseño</a></li>
                         <li><a href="#contacto">Contacto</a></li>
-                        <li><a href="documentos/hoja de vida de ronald .pdf" download="btn">Descargar PDF</a></li>
+                        <li><a href="documentos/hoja de vida de ronald .pdf" download="btn">DescargarPDF</a></li>
                     </ul>
                 </nav>
             </div>
@@ -28,9 +29,9 @@
 
     <div class="container">
         <main id="cont-main">
-            <section id="posts">
-                <article id="desarrollo">
-                    <header>
+            <section id="">
+                <article id="inicio">
+                    <header class="tendenciascss">
                         <h2><a href="#post1">Tendencias CSS 2025</a></h2>
                         <div class="article-meta">
                             Por <strong>María García</strong> | 
@@ -52,8 +53,8 @@
                     </div>
                 </article>
 
-                <article id="">
-                    <header>
+                <article id="desarrollo">
+                    <header class="javascript">
                         <h2><a href="#post2">JavaScript ES2024: Nuevas Características</a></h2>
                         <div class="article-meta">
                             Por <strong>Carlos Rodríguez</strong> | 
@@ -75,7 +76,7 @@
                 </article>
 
                 <article id="diseño">
-                    <header>
+                    <header class="diseñoweb">
                         <h2><a href="#post3">Diseño Web Responsivo: Mejores Prácticas</a></h2>
                         <div class="article-meta">
                             Por <strong>Ana López</strong> | 
@@ -93,7 +94,7 @@
                             <span class="tag">CSS Grid</span>
                             <span class="tag">Flexbox</span>
                         </div>
-                        <a href="#leer-mas">Leer más →</a>
+                        <a href="#leer-mas">Leer más. →</a>
                     </div>
                 </article>
             </section>
@@ -107,9 +108,9 @@
                     </form>
                 </section>
 
-                <section>
+                <section class="seccion2">
                     <h3>Categorías</h3>
-                    <ul style="list-style: none;">
+                    <ul class="link">
                         <li><a href="https://developer.mozilla.org/es/docs/Learn_web_development?utm_source=chatgpt.com" target="_blank">Desarrollo Web (15)</a></li>
                         <li><a href="https://developer.mozilla.org/es/docs/conflicting/Learn_web_development/Core/Scripting_41cf930b8cfd2b83c76f8086a5e24792" target="_blank">JavaScript (12)</a></li>
                         <li><a href="https://developer.mozilla.org/es/docs/conflicting/Learn_web_development/Core/Styling_basics_b957eec7deaf1ea2b20721d6838ea6e1" target="_blank">CSS (8)</a></li>
@@ -118,16 +119,16 @@
                     </ul>
                 </section>
 
-                <section>
+                <section class="seccion2">
                     <h3>Artículos Populares</h3>
-                    <ul style="list-style: none;">
+                    <ul style="list-style: none;" class="populares">
                         <li><a href="#popular1">Guía Completa de Flexbox</a></li>
                         <li><a href="#popular2">10 Trucos de JavaScript</a></li>
                         <li><a href="#popular3">CSS Grid vs Flexbox</a></li>
                     </ul>
                 </section>
 
-                <section>
+                <section class="seccion3">
                     <h3>Newsletter</h3>
                     <p>Suscríbete para recibir los últimos artículos:</p>
                     <form style="margin-top: 10px;">
@@ -136,9 +137,9 @@
                     </form>
                 </section>
 
-                <section>
+                <section class="seccion4">
                     <h3>Síguenos</h3>
-                    <ul style="list-style: none;">
+                    <ul style="list-style: none;" class="listasredes">
                         <li><a href="https://twitter.com/techblog">Twitter</a></li>
                         <li><a href="https://facebook.com/techblog">Facebook</a></li>
                         <li><a href="https://linkedin.com/company/techblog">LinkedIn</a></li>
@@ -149,13 +150,20 @@
         </main>
     </div>
 
-    <footer>
-        <div class="container">
+    <footer id="contacto">
+        <div class="containerfooter">
             <p>&copy; 2024 TechBlog. Todos los derechos reservados.</p>
-            <p>Síguenos en nuestras redes sociales para más contenido</p>
-            <a href="mailto:justifabian05@gmail.com">enviar correo</a>
             <br>
-            <a href="tel:3225607813">llamanos..</a>
+            <p>Síguenos en nuestras redes sociales para más contenido</p>
+            <br>
+           
+            <a href="mailto:justifabian05@gmail.com" class="footer-link">enviar correo</a>
+           
+            <br>
+            <br>
+            
+            <a href="tel:3225607813" class="footer-link">llamanos</a>
+        
         </div>
     </footer>
 </body>
