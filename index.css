@@ -178,7 +178,7 @@
 
         @media (max-width: 600px) {
         #cont-main {
-            padding-top: 100px; /* menos espacio en móvil */
+            padding-top: 100px; 
         }
 }
 
@@ -359,18 +359,18 @@
             }
 
             nav ul {
-                display: none; /* oculto por defecto */
+                display: none; 
                 flex-direction: column;
                 width: 100%;
                 background: #333;
                 position: absolute;
-                top: 100%; /* justo debajo del header */
+                top: 100%; 
                 left: 0;
                 padding: 10px 0;
             }
 
             nav ul.show {
-                display: flex; /* aparece cuando está activo */
+                display: flex;
             }
 
             nav li {
