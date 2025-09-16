@@ -14,15 +14,16 @@
             <div class="header-content">
                 <img src="Img/imagen2.jpg" alt="yo" class="yo">
                 <h1>Ronald Vargas</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#desarrollo">Desarrollo</a></li>
-                        <li><a href="#diseño">Diseño</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                        <li><a href="documentos/hoja de vida de ronald .pdf" download="btn">DescargarPDF</a></li>
-                    </ul>
-                </nav>
+                    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+                    <nav>
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#desarrollo">Desarrollo</a></li>
+                            <li><a href="#diseño">Diseño</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                            <li><a href="documentos/hoja de vida de ronald .pdf" download="btn">DescargarPDF</a></li>
+                        </ul>
+                    </nav>
             </div>
         </div>
     </header>
@@ -168,3 +169,10 @@
     </footer>
 </body>
 </html>
+
+<script>
+document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector("nav ul").classList.toggle("show");
+});
+</script>
+
